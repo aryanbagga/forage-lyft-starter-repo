@@ -1,9 +1,9 @@
 from abc import ABC
-from Battery.battery import Battery
+from MainCode.Battery.battery import Battery
 
 
 class SpindlerBattery(Battery, ABC):
-    def __init__(self, last_service_date, current_date):
+    def __init__(self, current_date, last_service_date):
         super().__init__()
         self.current_date = current_date
         self.last_service_date = last_service_date

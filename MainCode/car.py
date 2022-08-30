@@ -1,5 +1,5 @@
 from abc import ABC
-from Servicable import Serviceable
+from MainCode.Servicable import Serviceable
 
 
 class Car(Serviceable, ABC):
